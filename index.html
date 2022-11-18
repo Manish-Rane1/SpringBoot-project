@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <title>Document</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div id="container">
+        <div id="header">
+            <img src="password.png" alt="">
+            Password Manager
+        </div>
+        <div id="grid">
+        <span>Account :</span>
+        <input type="text" placeholder="Account" id="Account" class="all">
+        <span >Username :</span>
+        <input type="text" placeholder="Username" id="Username" class="all">
+        <span >Password :</span>
+        <input type="text" placeholder="Password" id="Password" class="all">
+        <button onclick="saveData()" id="top">Save/Update</button>
+        <button onclick="getData()" >Get</button>
+        <button onclick="Delete()" >Delete</button>
+        </div>
+    </div>
+</body>
+</html>
